@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background-color: #025751;
+  background-size: 100% 300%;
+  margin: 0%;
+}
+
+p {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  margin: 0px;
+  color: #f8eb9e;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 3px 0 #232931;
+}
+
+#level-title {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 3rem;
+  margin:  2.2%;
+  color: #f8eb9e;
+  text-shadow: 5px 0 #232931;
+}
+
+#level-reached {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 20px;
+  color: #f8eb9e;
+  text-shadow: 3px 0 #232931;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 15%;
+  box-shadow: 5px 0 #2f363f;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background: linear-gradient(200deg, rgb(247, 50, 50), red, rgb(201, 2, 2));
+}
+
+.green {
+  background: linear-gradient(200deg, rgb(23, 124, 23), green, rgb(0, 100, 0));
+}
+
+.blue {
+  background: linear-gradient(200deg, rgb(56, 56, 249), blue, rgb(0, 0, 172));
+}
+
+.yellow {
+  background: linear-gradient(200deg, rgb(249, 249, 66), yellow, rgb(174, 174, 0));
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
